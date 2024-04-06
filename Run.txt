@@ -1,0 +1,5 @@
+git clone git@github.com:TobeMagic/Stock-Prediction-System-Application.git
+cd Awesome-Stock-Prediction
+virtualenv\Scripts\activate
+  python manage.py migrate
+python manage.py runserver 0.0.0.0:8000
